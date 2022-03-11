@@ -1,4 +1,4 @@
-defmodule Petri do
+defmodule Petri_l do
   def preset(f, n) do
     f |>
     Enum.filter(fn[_src, tgt] -> tgt == n end) |>
